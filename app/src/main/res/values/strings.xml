@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Wallet E</string>
+    <string name="str_add_money">Add Money</string>
+    <string name="add_money">Add</string>
+    <string name="close">X</string>
+    <string name="amount">Amount</string>
+    <string name="purpose">Purpose</string>
+</resources>

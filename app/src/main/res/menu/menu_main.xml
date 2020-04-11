@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_add"
+        android:title="Add"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_add"/>
+    <item android:id="@+id/action_all"
+        android:title="All"/>
+    <item android:id="@+id/action_expenses"
+        android:title="Expenses"/>
+    <item android:id="@+id/action_saving"
+        android:title="Savings"/>
+
+</menu>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.DayNight.Dialog" >
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+    
+    <style name="ToolbarStyle" parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="cdpItemStyle">
+        <item name="android:drawableBottom">@drawable/down_normal</item>
+        <item name="android:drawableTop">@drawable/up_normal</item>
+        <item name="android:drawablePadding">16dp</item>
+        <item name="android:layout_width">92dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/bg_cdp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <color name="green">#0F0</color>
+    <color name="dark_blue">#00008B</color>
+    <color name="blue">#0000FF</color>
+    <color name="medium_blue">#0000CD</color>
+</resources>

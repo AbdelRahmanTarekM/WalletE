@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/tv_day"
+        style="@style/cdpItemStyle"
+        android:text="1" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="16dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_month"
+        style="@style/cdpItemStyle"
+        android:text="Jan" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="16dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_year"
+        style="@style/cdpItemStyle"
+        android:text="2016" />
+</LinearLayout>

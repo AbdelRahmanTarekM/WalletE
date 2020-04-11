@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E30D0028"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/tv_title_vertical_margin"
+        android:layout_marginTop="@dimen/tv_title_vertical_margin"
+        android:text="@string/add_money"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/tv_title_font_size" />
+
+    <ImageButton
+        android:id="@+id/btn_close"
+        android:layout_width="12dp"
+        android:layout_height="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/tv_title"
+        android:layout_marginRight="16dp"
+        android:background="@null"
+        android:src="@drawable/ic_close" />
+
+    <EditText
+        android:id="@+id/et_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/bg_et_expense"
+        android:hint="@string/amount"
+        android:inputType="numberSigned|numberDecimal"
+        android:padding="@dimen/et_padding"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <EditText
+        android:id="@+id/et_purpose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_amount"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/bg_et_expense"
+        android:hint="@string/purpose"
+        android:inputType="textVisiblePassword"
+        android:padding="@dimen/et_padding"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff" />
+
+    <com.abdelrahman.wallete.Widgets.ExpenseDatePicker
+        android:id="@+id/custom_date_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_purpose"
+        android:layout_marginBottom="16dp" />
+
+
+    <Button
+        android:id="@+id/btn_dialog_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/custom_date_picker"
+        android:background="@drawable/bg_btn_add_it"
+        android:text="@string/add_money"
+        android:textAllCaps="false"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
